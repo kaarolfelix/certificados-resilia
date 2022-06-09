@@ -1,0 +1,145 @@
+body {
+    background: rgb(151, 151, 151);
+    height: 1235px;
+    width: 1300px;
+    font-family: 'roboto', sans-serif;
+}
+
+header {
+    height: 1000px;
+    height: 120px;
+    margin-bottom: 5em;
+}
+
+.container {
+    height: 50px;
+    width: 1340px; 
+    display: flex;
+    align-items: baseline;
+    flex-wrap: nowrap; 
+       
+}
+.container {
+    padding: 30px 0;
+    height: 50px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 140px;
+    width: 500px;
+    border: 5px solid #000000 ;
+    border-radius: 15px;
+    border-width: 0vmax;
+   }
+   
+.titulo {
+    background: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.986);
+    font-weight: bold;
+    text-align: center;
+   }
+       
+
+.cabeçalho {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    width: 1360px;
+    margin: 0 10px ;
+    
+}
+
+.cabeçalho {
+    background: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20pt;
+    text-align:center;
+}
+nav a:hover {
+    color: #fc0d0d;
+    text-decoration: underline;}
+
+nav li {
+    list-style: none;
+    font-weight: bold;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;  
+    margin: 0 20px 0 10px;    
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(232, 231, 233);
+
+}
+
+  
+
+.fofineos {
+    
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+
+.fofineos {
+    
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 20px 0 20px;
+      
+}
+
+      
+.foto {
+    background: white;
+    border: 2px solid #000000 ;
+    border-radius: 30px;
+    border-width: 0vmax;
+    padding: 2%;
+    box-shadow: 10px 10px 5px black; 
+}
+
+.fotos :hover {
+    color: #fc0d0d;
+    text-decoration:overline}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+    text-transform: uppercase;
+    
+}
+ 
+.video {
+    width: 1320px;
+    margin: 4em 0 0 ;
+    display: flex;
+    justify-content: center;
+  }
+
+footer {
+    height: 100px;
+    width: 1315px;
+    margin: 20px 0 0 0;}
+
+footer {
+    text-align: center;
+    font-size: 25pt;
+    color: rgb(255, 230, 0);
+    background: #000000;
+    padding: 10px;
+    }
+
+
+
