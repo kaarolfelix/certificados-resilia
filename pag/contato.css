@@ -70,14 +70,3 @@ nav a {
     color: rgb(232, 231, 233);
 
 }
-
-.curriculo {
-display: flex;
-justify-content: center;
-height: 840px;
-width: 110%;
-padding-top: 80px;
-margin-bottom: 20px;
-margin-left: 10rem;
-}
-
