@@ -1,8 +1,15 @@
 body {
-    background: #999999;
-    height: auto;
-    width: 940px;
+    background: rgb(151, 151, 151);
+    height: 1235px;
+    width: 1300px;
+    font-family: 'roboto', sans-serif;
 }
+header {
+    height: 1000px;
+    height: 120px;
+    margin-bottom: 5em;
+}
+
 .container {
     height: 50px;
     width: 1340px; 
@@ -69,4 +76,33 @@ nav a {
     text-transform: uppercase;
     color: rgb(232, 231, 233);
 
+}
+
+/*  pag curriculo */
+
+.curriculo {
+    display: flex;
+    justify-content: center;
+    height: 840px;
+    width: 110%;
+    padding-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 10rem;
+    }
+
+
+ /* pag contato    */
+    
+
+
+.links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.links {
+    font-size: 15pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
 }
