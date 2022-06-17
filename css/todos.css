@@ -1,8 +1,7 @@
 body {
-    background: rgb(151, 151, 151);
-    height: 1235px;
-    width: 1300px;
-    font-family: 'roboto', sans-serif;
+    background: #999999;
+    height: auto;
+    width: 940px;
 }
 header {
     height: 1000px;
@@ -77,6 +76,7 @@ nav a {
     color: rgb(232, 231, 233);
 
 }
+
 
 /*  pag curriculo */
 
