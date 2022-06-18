@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    height: 1000px;
+    width: 1300px;
     height: 120px;
     margin-bottom: 5em;
 }
@@ -26,7 +26,7 @@ header {
 
 .titulo {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: 140px;
     width: 500px;
@@ -49,19 +49,25 @@ header {
     align-items: center;
     height: 60px;
     width: 1360px;
-    margin: 0 10px ;
-    
+    padding-right: 15px;
+   
+        
 }
+
+
 
 .cabeçalho {
     background: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 20pt;
     text-align:center;
+
 }
+
+
 nav a:hover {
-    color: #fc0d0d;
-    text-decoration: underline;}
+    color: #ffe608;
+    }
 
 nav li {
     list-style: none;
@@ -75,6 +81,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: rgb(232, 231, 233);
+    margin: 10px;
 
 }
 
@@ -121,17 +128,21 @@ h3 {
   }
 
 footer {
-    height: 100px;
-    width: 1315px;
+    height: 200px;
+    width: 1320px;
     margin: 20px 0 0 0;}
 
 footer {
     text-align: center;
-    font-size: 25pt;
+    font-size: 20pt;
     color: rgb(255, 230, 0);
     background: #000000;
     padding: 10px;
     }
 
+.listaHabilidades {
+    font-size: 16pt;
+    display: flex;
+}  
 
 
