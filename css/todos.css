@@ -94,6 +94,11 @@ nav a {
  /* pag contato    */
     
 
+.box {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+}
 
 .links {
     display: flex;

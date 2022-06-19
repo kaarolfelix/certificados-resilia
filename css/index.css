@@ -54,8 +54,6 @@ header {
         
 }
 
-
-
 .cabeçalho {
     background: rgb(0, 0, 0);
     font-weight: bold;
@@ -95,7 +93,7 @@ nav a {
     justify-content:space-evenly;
     margin-bottom: 50px;
     
-    } 
+} 
            
 .img {
    
