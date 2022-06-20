@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    width: 1300px;
+    height: 1000px;
     height: 120px;
     margin-bottom: 5em;
 }
@@ -26,7 +26,7 @@ header {
 
 .titulo {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 140px;
     width: 500px;
@@ -49,9 +49,8 @@ header {
     align-items: center;
     height: 60px;
     width: 1360px;
-    padding-right: 15px;
-   
-        
+    margin: 0 10px ;
+    
 }
 
 .cabeçalho {
@@ -59,13 +58,10 @@ header {
     font-weight: bold;
     font-size: 20pt;
     text-align:center;
-
 }
-
-
 nav a:hover {
-    color: #ffe608;
-    }
+    color: #fc0d0d;
+    text-decoration: underline;}
 
 nav li {
     list-style: none;
@@ -79,7 +75,6 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: rgb(232, 231, 233);
-    margin: 10px;
 
 }
 
@@ -112,22 +107,35 @@ nav a {
 
 
 footer {
+<<<<<<< HEAD
     height: 250px;
     width: 1320px;
+=======
+    height: 100px;
+    width: 1315px;
+>>>>>>> parent of 5745bb9 (alterando posicionamento)
     margin: 20px 0 0 0;}
 
 footer {
     text-align: center;
+<<<<<<< HEAD
     font-size: 10pt;
     color: rgb(255, 255, 255);
+=======
+    font-size: 25pt;
+    color: rgb(255, 230, 0);
+>>>>>>> parent of 5745bb9 (alterando posicionamento)
     background: #000000;
     padding: 10px;
     }
 
+<<<<<<< HEAD
 .listaHabilidades {
     font-size: 13pt;
     display: flex;
 }  
+=======
+>>>>>>> parent of 5745bb9 (alterando posicionamento)
 
 
 
